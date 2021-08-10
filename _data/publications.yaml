@@ -6,13 +6,13 @@ papers:
     paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
     selected: y
 
-  - title: "Template"
-    authors: "<b>Parnian Kassraie</b>, Andreas Krause"
-    venue: "VENUE"
-    paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
-    poster: "/assets/publications/2021_neural_bandits/paper.pdf"
-    slides: "/assets/publications/2021_neural_bandits/paper.pdf"
-    code: "https://github.com/pkassraie"
-    video: "https://www.youtube.com/watch?v=OQOUHkJdA-U"
-    data: "https://github.com/pkassraie"
-    selected: n
+  # - title: "Template"
+  #   authors: "<b>Parnian Kassraie</b>, Andreas Krause"
+  #   venue: "VENUE"
+  #   paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
+  #   poster: "/assets/publications/2021_neural_bandits/paper.pdf"
+  #   slides: "/assets/publications/2021_neural_bandits/paper.pdf"
+  #   code: "https://github.com/pkassraie"
+  #   video: "https://www.youtube.com/watch?v=OQOUHkJdA-U"
+  #   data: "https://github.com/pkassraie"
+  #   selected: n
