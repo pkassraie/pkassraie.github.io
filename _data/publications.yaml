@@ -2,9 +2,15 @@ papers:
 
   - title: "Neural Contextual Bandits without Regret"
     authors: "<b>Parnian Kassraie</b>, Andreas Krause"
-    venue: "arXiv preprint"
+    venue: "In International Conference on Artificial Intelligence and Statistics (AISTATS), 2022"
     paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
     selected: y
+
+   - title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
+     authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
+     venue: "arXiv preprint"
+     paper_pdf: "/assets/publications/2022_MetaKeL/paper.pdf"
+     selected: y
 
   # - title: "Template"
   #   authors: "<b>Parnian Kassraie</b>, Andreas Krause"
