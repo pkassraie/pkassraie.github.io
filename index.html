@@ -3,15 +3,12 @@ layout: default
 title: Home
 ---
 <!-- ========== BIO ========== -->
-<h5>
-  This webpage is under (serious) construction.
-  </h5>
-
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
   I am a Ph.D. student at the department of Computer Science at ETH Zurich, working with <a href="https://las.inf.ethz.ch/krausea" target="_blank">Andreas Krause</a>.
-  My research interest is in Bandits, Bayesian Optimization and Theory of Machine Learning.
+  I am also associated with the <a href="https://ai.ethz.ch/" target="_blank">ETH AI Center</a>.
+  I work on Theory of Machine Learning, often in the context of Sequential Decision-making and Meta-learning.
   </p>
 
   <p>
@@ -26,17 +23,15 @@ title: Home
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
-  <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
+  <p>My <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a> profile might be more up-to-date.<br/>
   <!-- <sup>‡</sup> indicates equal contribution. -->
   <!-- </p> -->
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
+<!--  <ul class="tab-nav">-->
+<!--    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>-->
+<!--    <li><div class="button" data-ref="#papers-all">All</div></li>-->
+<!--  </ul>-->
 
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
@@ -71,39 +66,7 @@ title: Home
           </div>
         </div>
       {% endfor %}
-    </div>
 
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
 </div>
 
 <!-- ========== PROJECTS ==========
@@ -209,6 +172,6 @@ title: Home
 
 
 <div class="docs-section" id="template">
-    <h4>Website Design</h4>
+    <h5>Website Design</h5>
     This webpage is built using <a href="https://web.stanford.edu/~msaveski/" target="_blank">Martin Saveski</a>'s template, available <a href="https://github.com/msaveski/www_personal" target="_blank">here</a>.
 </div>
