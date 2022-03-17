@@ -4,6 +4,8 @@ papers:
     authors: "<b>Parnian Kassraie</b>, Andreas Krause"
     venue: "In International Conference on Artificial Intelligence and Statistics (AISTATS), 2022"
     paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
+    poster: "/assets/publications/2021_neural_bandits/poster.pdf"
+    slides: "/assets/publications/2021_neural_bandits/slides.pdf"
     selected: y
 
   - title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
