@@ -1,13 +1,5 @@
 papers:
 
-#   - title: "Graph Neural Network Bandits"
-#     authors: "<b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
-#     venue: "arXiv preprint"
-#     paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
-#     poster: "/assets/publications/2021_neural_bandits/paper.pdf"
-#     slides: "/assets/publications/2021_neural_bandits/paper.pdf"
-#     selected: n
-
   - title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
     authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
     venue: "In International Conference on Machine Learning (ICML), 2022"
