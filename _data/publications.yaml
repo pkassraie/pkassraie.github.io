@@ -9,7 +9,7 @@ papers:
 - title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
   authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
   venue: "In International Conference on Machine Learning (ICML), 2022"
-  workshop: "Also in Safe, Anytime-Valid Inference workshop (SAVI), 2022"
+  workshop: "Also in Safe, Anytime-Valid Inference workshop (SAVI), 2022 <br> Also in Adaptive Experimental Design and Active Learning Workshop (ReALML), 2022"
   paper_pdf: "/assets/publications/2022_MetaKeL/paper.pdf"
   poster: "/assets/publications/2022_MetaKeL/poster.pdf"
   slides: "/assets/publications/2022_MetaKeL/slides.pdf"
