@@ -1,8 +1,14 @@
 papers:
 
+#- title: "Instance-Dependent Generalization"
+#  authors: Songyan Hou&ast;, "<b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
+#  venue: "arXiv Preprint, 2022"
+#  paper_pdf: "/assets/publications/2022_GNNPE/paper.pdf"
+#  selected: y
+
 - title: "Graph Neural Network Bandits"
   authors: "<b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
-  venue: "arXiv Preprint, 2022"
+  venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2022"
   paper_pdf: "/assets/publications/2022_GNNPE/paper.pdf"
   selected: y
 
