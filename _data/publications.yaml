@@ -5,12 +5,14 @@ papers:
   venue: "arXiv Preprint, 2022"
   paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
   selected: y
+  theme: nn
 
 - title: "Lifelong Bandit Optimization: No prior and No Regret"
   authors: "Felix Schur, <b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
   venue: "arxiv Preprint, 2022"
   paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
   selected: y
+  theme: meta
 
 - title: "Graph Neural Network Bandits"
   authors: "<b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
@@ -19,6 +21,7 @@ papers:
   slides: "/assets/publications/2022_GNNPE/slides.pdf"
   video: "https://recorder-v3.slideslive.com/#/share?share=73753&s=27efa0ab-1ec4-4ec5-8eb0-eb9c6a96c18d"
   selected: y
+  theme: nn
 
 - title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
   authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
@@ -27,7 +30,10 @@ papers:
   paper_pdf: "/assets/publications/2022_MetaKeL/paper.pdf"
   poster: "/assets/publications/2022_MetaKeL/poster.pdf"
   slides: "/assets/publications/2022_MetaKeL/slides.pdf"
+  video: "https://icml.cc/virtual/2022/spotlight/18152"
   selected: y
+  theme: meta
+
  
 - title: "Neural Contextual Bandits without Regret"
   authors: "<b>Parnian Kassraie</b>, Andreas Krause"
@@ -35,7 +41,9 @@ papers:
   paper_pdf: "/assets/publications/2021_neural_bandits/paper.pdf"
   poster: "/assets/publications/2021_neural_bandits/poster.pdf"
   slides: "/assets/publications/2021_neural_bandits/slides.pdf"
+  video: "https://virtual.aistats.org/virtual/2022/poster/3134"
   selected: y
+  theme: nn
 
 # - title: "Template"
 #   authors: "<b>Parnian Kassraie</b>, Andreas Krause"
