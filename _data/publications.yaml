@@ -1,6 +1,6 @@
 papers:
 
-- title: "Instance-Dependent Generalization Generalization Bounds via Optimal Transport"
+- title: "Instance-Dependent Generalization Bounds via Optimal Transport"
   authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
   venue: "arXiv Preprint, 2022"
   paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
