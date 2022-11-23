@@ -19,7 +19,7 @@ papers:
   venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2022"
   paper_pdf: "/assets/publications/2022_GNNPE/paper.pdf"
   slides: "/assets/publications/2022_GNNPE/slides.pdf"
-  video: "https://recorder-v3.slideslive.com/#/share?share=73753&s=27efa0ab-1ec4-4ec5-8eb0-eb9c6a96c18d"
+  video: "https://neurips.cc/virtual/2022/poster/53397"
   selected: y
   theme: nn
 
