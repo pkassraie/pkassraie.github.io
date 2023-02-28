@@ -1,5 +1,19 @@
 papers:
 
+- title: "Hallucinated Adversarial Control for Conservative Offline Policy Evaluation"
+  authors: "Jonas Rothfuss&ast;, Bhavya Sukhija&ast;, Tobias Birchler&ast;, <b>Parnian Kassraie</b>;, Andreas Krause"
+  venue: "arxiv Preprint, 2023"
+  paper_pdf: "/assets/publications/2023_HAMBO/paper.pdf"
+  selected: y
+  theme: nn
+
+- title: "Lifelong Bandit Optimization: No prior and No Regret"
+  authors: "Felix Schur&ast;, <b>Parnian Kassraie</b>&ast;, Jonas Rothfuss, Andreas Krause"
+  venue: "arxiv Preprint, 2023"
+  paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
+  selected: y
+  theme: meta
+
 - title: "Instance-Dependent Generalization Bounds via Optimal Transport"
   authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
   venue: "arXiv Preprint, 2022"
@@ -7,12 +21,6 @@ papers:
   selected: y
   theme: nn
 
-- title: "Lifelong Bandit Optimization: No prior and No Regret"
-  authors: "Felix Schur, <b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
-  venue: "arxiv Preprint, 2022"
-  paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
-  selected: y
-  theme: meta
 
 - title: "Graph Neural Network Bandits"
   authors: "<b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
