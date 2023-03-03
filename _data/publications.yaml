@@ -1,7 +1,7 @@
 papers:
 
 - title: "Hallucinated Adversarial Control for Conservative Offline Policy Evaluation"
-  authors: "Jonas Rothfuss&ast;, Bhavya Sukhija&ast;, Tobias Birchler&ast;, <b>Parnian Kassraie</b>;, Andreas Krause"
+  authors: "Jonas Rothfuss&ast;, Bhavya Sukhija&ast;, Tobias Birchler&ast;, <b>Parnian Kassraie</b>, Andreas Krause"
   venue: "arxiv Preprint, 2023"
   paper_pdf: "/assets/publications/2023_HAMBO/paper.pdf"
   selected: y
