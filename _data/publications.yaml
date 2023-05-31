@@ -9,7 +9,7 @@ papers:
 
 - title: "Lifelong Bandit Optimization: No prior and No Regret"
   authors: "Felix Schur&ast;, <b>Parnian Kassraie</b>&ast;, Jonas Rothfuss, Andreas Krause"
-  venue: "In Conference on Uncertainty in Artificial Intelligence (UAI), 2023 (<b>Oral</b>)"
+  venue: "In Conference on Uncertainty in Artificial Intelligence (UAI), 2023"
   paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
   selected: y
   theme: meta
