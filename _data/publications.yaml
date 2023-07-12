@@ -1,5 +1,19 @@
 papers:
 
+- title: "Anytime Model Selection in Linear Bandits"
+  authors: "<b>Parnian Kassraie</b>, Aldo Pacchiano, Nicolas Emmenegger, Andreas Krause"
+  venue: "arXiv Preprint, 2023"
+  paper_pdf: "/assets/publications/2023_alexp/paper.pdf"
+  selected: y
+  theme: meta
+
+- title: "Graph Neural Network Powered Bayesian Optimization for Large Molecular Spaces"
+  authors: "Miles Wang-Henderson&ast;, Bartu Soyuer&ast;, <b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
+  venue: "In ICML Workshop on Structured Probabilistic Inference & Generative Modeling, 2023"
+  paper_pdf: "/assets/publications/2023_GNNSS/paper.pdf"
+  selected: y
+  theme: nn
+
 - title: "Hallucinated Adversarial Control for Conservative Offline Policy Evaluation"
   authors: "Jonas Rothfuss&ast;, Bhavya Sukhija&ast;, Tobias Birchler&ast;, <b>Parnian Kassraie</b>, Andreas Krause"
   venue: "In Conference on Uncertainty in Artificial Intelligence (UAI), 2023"
@@ -11,6 +25,7 @@ papers:
   authors: "Felix Schur&ast;, <b>Parnian Kassraie</b>&ast;, Jonas Rothfuss, Andreas Krause"
   venue: "In Conference on Uncertainty in Artificial Intelligence (UAI), 2023"
   paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
+  poster: "/assets/publications/2022_LiBO/poster.pdf"
   selected: y
   theme: meta
 
