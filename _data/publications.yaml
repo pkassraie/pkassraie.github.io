@@ -18,7 +18,7 @@ papers:
   authors: "Jonas Rothfuss&ast;, Bhavya Sukhija&ast;, Tobias Birchler&ast;, <b>Parnian Kassraie</b>, Andreas Krause"
   venue: "In Conference on Uncertainty in Artificial Intelligence (UAI), 2023"
   paper_pdf: "/assets/publications/2023_HAMBO/paper.pdf"
-  Poster: "/assets/publications/2023_HAMBO/poster.pdf"
+  poster: "/assets/publications/2023_HAMBO/poster.pdf"
   selected: y
   theme: nn
 
