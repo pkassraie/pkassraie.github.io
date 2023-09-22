@@ -2,7 +2,7 @@ papers:
 
 - title: "Anytime Model Selection in Linear Bandits"
   authors: "<b>Parnian Kassraie</b>, Aldo Pacchiano, Nicolas Emmenegger, Andreas Krause"
-  venue: "arXiv Preprint, 2023"
+  venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2023"
   paper_pdf: "/assets/publications/2023_alexp/paper.pdf"
   poster: "/assets/publications/2023_alexp/poster.pdf"
   slides: "/assets/publications/2023_alexp/slides.pdf"
