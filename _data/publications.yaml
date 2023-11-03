@@ -1,17 +1,25 @@
 papers:
 
+- title: "Instance-Dependent Generalization Bounds via Optimal Transport"
+  authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
+  venue: "Journal of Machine Learning Research, 2023 (to appear)"
+  paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
+  selected: y
+  theme: nn
+
 - title: "Anytime Model Selection in Linear Bandits"
-  authors: "<b>Parnian Kassraie</b>, Aldo Pacchiano, Nicolas Emmenegger, Andreas Krause"
-  venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2023"
+  authors: "<b>Parnian Kassraie</b>, Nicolas Emmenegger, Andreas Krause, Aldo Pacchiano"
+  venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2023 <br>
+Also in PAC-Bayes Meets Interactive Learning Workshop at ICML, 2023 (<b>Oral</b>)"
   paper_pdf: "/assets/publications/2023_alexp/paper.pdf"
   poster: "/assets/publications/2023_alexp/poster.pdf"
   slides: "/assets/publications/2023_alexp/slides.pdf"
   selected: y
   theme: meta
 
-- title: "Graph Neural Network Powered Bayesian Optimization for Large Molecular Spaces"
+- title: "Model-Based Optimization over Large Molecular Spaces"
   authors: "Miles Wang-Henderson&ast;, Bartu Soyuer&ast;, <b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
-  venue: "In ICML Workshop on Structured Probabilistic Inference & Generative Modeling, 2023"
+  venue: "In ICML Workshop on Structured Probabilistic Inference & Generative Modeling, 2023 <br> Also In NeurIPS Workshop on AI for Drug Discovery, 2023"
   paper_pdf: "/assets/publications/2023_GNNSS/paper.pdf"
   selected: y
   theme: nn
@@ -31,13 +39,6 @@ papers:
   poster: "/assets/publications/2022_LiBO/poster.pdf"
   selected: y
   theme: meta
-
-- title: "Instance-Dependent Generalization Bounds via Optimal Transport"
-  authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
-  venue: "arXiv Preprint, 2022"
-  paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
-  selected: y
-  theme: nn
 
 
 - title: "Graph Neural Network Bandits"
