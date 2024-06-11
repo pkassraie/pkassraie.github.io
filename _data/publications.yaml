@@ -9,7 +9,7 @@ papers:
 
 - title: "Instance-Dependent Generalization Bounds via Optimal Transport"
   authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
-  venue: "Journal of Machine Learning Research, 2023 (to appear)"
+  venue: "Journal of Machine Learning Research, 2023"
   paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
   selected: y
   theme: ot
