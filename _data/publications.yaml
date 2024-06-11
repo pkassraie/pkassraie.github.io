@@ -2,7 +2,7 @@ papers:
 
 - title: "Progressive Entropic Optimal Transport Solvers"
   authors: <b>Parnian Kassraie</b>, Aram-Alexandre Pooladian, Michal Klein, James Thornton, Jonathan Niles-Weed, Marco Cuturi"
-  venue: "arXiv preprint"
+  venue: "arXiv preprint, 2024"
   paper_pdf: "/assets/publications/2024_progot/paper.pdf"
   selected: y
   theme: ot
