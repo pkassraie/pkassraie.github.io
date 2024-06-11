@@ -1,5 +1,12 @@
 papers:
 
+- title: "Progressive Entropic Optimal Transport Solvers"
+  authors: <b>Parnian Kassraie</b>, Aram-Alexandre Pooladian, Michal Klein, James Thornton, Jonathan Niles-Weed, Marco Cuturi"
+  venue: "arXiv preprint, 2024"
+  paper_pdf: "/assets/publications/2024_progot/paper.pdf"
+  selected: y
+  theme: ot
+
 - title: "Instance-Dependent Generalization Bounds via Optimal Transport"
   authors: "Songyan Hou&ast;, <b>Parnian Kassraie</b>&ast;, Anastasis Kratsios&ast;, Jonas Rothfuss&ast;, Andreas Krause"
   venue: "Journal of Machine Learning Research, 2023 (to appear)"
