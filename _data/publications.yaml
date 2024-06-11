@@ -12,7 +12,7 @@ papers:
   venue: "Journal of Machine Learning Research, 2023 (to appear)"
   paper_pdf: "/assets/publications/2022_GenBound/paper.pdf"
   selected: y
-  theme: nn
+  theme: ot
 
 - title: "Anytime Model Selection in Linear Bandits"
   authors: "<b>Parnian Kassraie</b>, Nicolas Emmenegger, Andreas Krause, Aldo Pacchiano"
