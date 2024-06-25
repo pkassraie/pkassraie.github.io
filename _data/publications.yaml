@@ -1,5 +1,12 @@
 papers:
 
+- title: "Bandits with Preference Feedback: A Stackelberg Game Perspective"
+  authors: "Barna P&aacute;sztor&ast;, <b>Parnian Kassraie</b>&ast;, Andreas Krause"
+  venue: "arXiv preprint, 2024"
+  paper_pdf: "/assets/publications/2024_maxminlcb/paper.pdf"
+  selected: y
+  theme: hf
+  
 - title: "Progressive Entropic Optimal Transport Solvers"
   authors: "<b>Parnian Kassraie</b>, Aram-Alexandre Pooladian, Michal Klein, James Thornton, Jonathan Niles-Weed, Marco Cuturi"
   venue: "arXiv preprint, 2024"
