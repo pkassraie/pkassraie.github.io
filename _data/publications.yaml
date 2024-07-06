@@ -4,6 +4,7 @@ papers:
   authors: "Barna P&aacute;sztor&ast;, <b>Parnian Kassraie</b>&ast;, Andreas Krause"
   venue: "arXiv preprint, 2024"
   paper_pdf: "/assets/publications/2024_maxminlcb/paper.pdf"
+  poster: "/assets/publications/2024_maxminlcb/poster.pdf"
   selected: y
   theme: hf
   
