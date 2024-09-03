@@ -12,6 +12,8 @@ papers:
   authors: "<b>Parnian Kassraie</b>, Aram-Alexandre Pooladian, Michal Klein, James Thornton, Jonathan Niles-Weed, Marco Cuturi"
   venue: "arXiv preprint, 2024"
   paper_pdf: "/assets/publications/2024_progot/paper.pdf"
+  slides: "/assets/publications/2024_progot/slides.pdf"
+  code: "https://ott-jax.readthedocs.io/en/latest/tutorials/linear/700_progot.html"
   selected: y
   theme: ot
 
