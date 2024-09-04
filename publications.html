@@ -1,0 +1,193 @@
+---
+layout: default
+title: Publications
+---
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+
+  <p>
+    Real-world optimization problems are on rich input domains, and over unknown objectives that are often costly to evaluate.
+    Such problems can be solved through <em>sequential decision-making</em>, that is the act of objective-aware adaptive data collection, inference, and optimization.
+My research makes application-inspired theoretical and methodological contributions to this field, focusing on the cases where the objective function is tough to model, and the domain is high-dimensional or has a complex structure, e.g., images and graphs.
+To this end, I adapt tools from deep learning <b>[NN]</b>, meta-learning/high-dimensional statistics <b>[META]</b>, and propose sample-efficient algorithms supported by theoretical guarantees.
+My work ultimately aims to enhance and accelerate scientific discovery by integrating model-based optimization into real-world experimentation.
+   </p>
+
+  <ul class="tab-nav">
+
+    <li><div class="button active" data-ref="#papers-selected">All</div></li>
+<!--    <li><div class="button" data-ref="#papers-all">All</div></li>-->
+    <li><div class="button" data-ref="#papers-meta" font-size: 10px>META</div></li>
+     <li><div class="button" data-ref="#papers-nn" font-size: 10px>NN</div></li>
+      <li><div class="button" data-ref="#papers-ot" font-size: 10px>OT</div></li>
+  </ul>
+
+      <div class="tab-content">
+      <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.workshop %}
+            <p><i>{{ paper.workshop }}</i></p>
+           {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+        </div>
+
+          <div class="tab-pane" id="papers-meta">
+      {% assign selected_papers = site.data.publications.papers | where: "theme", "meta" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.workshop %}
+            <p><i>{{ paper.workshop }}</i></p>
+           {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+        </div>
+      <div class="tab-pane" id="papers-nn">
+      {% assign selected_papers = site.data.publications.papers | where: "theme", "nn" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.workshop %}
+            <p><i>{{ paper.workshop }}</i></p>
+           {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+        </div>
+
+    <div class="tab-pane" id="papers-ot">
+      {% assign selected_papers = site.data.publications.papers | where: "theme", "ot" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.workshop %}
+            <p><i>{{ paper.workshop }}</i></p>
+           {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+        </div>
+
+
+</div>
+
+   <p><a href="/">← Back to Home.</a></p>
+  </div>
