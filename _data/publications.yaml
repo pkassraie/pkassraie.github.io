@@ -5,6 +5,7 @@ papers:
   venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2024"
   paper_pdf: "/assets/publications/2024_maxminlcb/paper.pdf"
   poster: "/assets/publications/2024_maxminlcb/poster.pdf"
+  code: "https://github.com/lasgroup/MaxMinLCB"
   selected: y
   theme: hf
   
@@ -13,6 +14,7 @@ papers:
   venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2024"
   paper_pdf: "/assets/publications/2024_progot/paper.pdf"
   slides: "/assets/publications/2024_progot/slides.pdf"
+  poster: "/assets/publications/2024_progot/poster.pdf"
   code: "https://ott-jax.readthedocs.io/en/latest/tutorials/linear/700_progot.html"
   selected: y
   theme: ot
