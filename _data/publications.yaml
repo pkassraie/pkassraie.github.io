@@ -16,6 +16,7 @@ papers:
   slides: "/assets/publications/2024_progot/slides.pdf"
   poster: "/assets/publications/2024_progot/poster.pdf"
   code: "https://ott-jax.readthedocs.io/en/latest/tutorials/linear/700_progot.html"
+  video: "https://neurips.cc/virtual/2024/poster/96442"
   selected: y
   theme: ot
 
