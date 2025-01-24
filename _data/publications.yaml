@@ -1,5 +1,13 @@
 papers:
 
+- title: "LITE: Efficiently Estimating Gaussian Probability of Maximality"
+  authors: "Nicolas Menet, Jonas Hübotter, <b>Parnian Kassraie</b>, Andreas Krause"
+  venue: "In International Conference on Artificial Intelligence and Statistics (AISTATS), 2025"
+  paper_pdf: "/assets/publications/2025_lite/paper.pdf"
+  code: "https://github.com/lasgroup/LITE"
+  selected: y
+  theme: hf
+
 - title: "Bandits with Preference Feedback: A Stackelberg Game Perspective"
   authors: "Barna P&aacute;sztor&ast;, <b>Parnian Kassraie</b>&ast;, Andreas Krause"
   venue: "In Conference on Neural Information Processing Systems (NeurIPS), 2024"
