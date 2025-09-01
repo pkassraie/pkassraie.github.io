@@ -81,7 +81,7 @@ Also in PAC-Bayes Meets Interactive Learning Workshop at ICML, 2023 (<b>Oral</b>
   selected: y
   theme: nn
 
-- title: "lin-Learning Hypothesis Spaces for Sequential Decision-making"
+- title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
   authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
   venue: "In International Conference on Machine Learning (ICML), 2022"
   workshop: "Also in Safe, Anytime-Valid Inference workshop (SAVI), 2022 <br> Also in Adaptive Experimental Design and Active Learning Workshop (ReALML), 2022"
