@@ -10,18 +10,17 @@ title: Research
 
 
   <p>
-    Real-world optimization problems are on rich input domains, and over unknown objectives that are often costly to evaluate.
-    Such problems can be solved through <em>sequential decision-making</em>, that is the act of objective-aware adaptive data collection, inference, and optimization.
-My research makes application-inspired theoretical and methodological contributions to this field, focusing on the cases where the objective function is tough to model, and the domain is high-dimensional or has a complex structure, e.g., images and graphs.
-To this end, I adapt tools from deep learning <b>[NN]</b>, meta-learning/high-dimensional statistics <b>[META]</b>, and propose sample-efficient algorithms supported by theoretical guarantees.
-My work ultimately aims to enhance and accelerate scientific discovery by integrating model-based optimization into real-world experimentation.
+<b>Ph.D. Research</b>: This body of work focuses on intelligent agents capable of making discoveries in domains where objectives are ambiguous, and data is scarce.
+      Instead of relying on fixed, expert-defined representation of such environments, we study how agents can curate their own data and learn useful representations of the problem space while solving it.
+      We develop a theoretical framework for optimization under unknown representations and proposed two complementary approaches: <b>[LIN]</b>, which offers efficient and provably optimal strategies in linear problem settings, and <b>[NN]</b>, which leverages the flexibility of neural networks to handle more complex structures, e.g. graph domains.
+      Together, these methods shed light on how we can move from trial-and-error exploration toward autonomous systems capable of genuine discovery.
    </p>
 
   <ul class="tab-nav">
 
     <li><div class="button active" data-ref="#papers-selected">All</div></li>
 <!--    <li><div class="button" data-ref="#papers-all">All</div></li>-->
-    <li><div class="button" data-ref="#papers-meta" font-size: 10px>META</div></li>
+    <li><div class="button" data-ref="#papers-lin" font-size: 10px>LIN</div></li>
      <li><div class="button" data-ref="#papers-nn" font-size: 10px>NN</div></li>
       <li><div class="button" data-ref="#papers-ot" font-size: 10px>OT</div></li>
   </ul>
@@ -67,8 +66,8 @@ My work ultimately aims to enhance and accelerate scientific discovery by integr
       {% endfor %}
         </div>
 
-          <div class="tab-pane" id="papers-meta">
-      {% assign selected_papers = site.data.publications.papers | where: "theme", "meta" %}
+          <div class="tab-pane" id="papers-lin">
+      {% assign selected_papers = site.data.publications.papers | where: "theme", "lin" %}
       {% for paper in selected_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>

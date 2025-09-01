@@ -44,7 +44,7 @@ Also in PAC-Bayes Meets Interactive Learning Workshop at ICML, 2023 (<b>Oral</b>
   slides: "/assets/publications/2023_alexp/slides.pdf"
   code: "https://github.com/lasgroup/ALEXP"
   selected: y
-  theme: meta
+  theme: lin
 
 - title: "Model-Based Optimization over Large Molecular Spaces"
   authors: "Miles Wang-Henderson&ast;, Bartu Soyuer&ast;, <b>Parnian Kassraie</b>, Andreas Krause, Ilija Bogunovic"
@@ -67,7 +67,7 @@ Also in PAC-Bayes Meets Interactive Learning Workshop at ICML, 2023 (<b>Oral</b>
   paper_pdf: "/assets/publications/2022_LiBO/paper.pdf"
   poster: "/assets/publications/2022_LiBO/poster.pdf"
   selected: y
-  theme: meta
+  theme: lin
 
 
 - title: "Graph Neural Network Bandits"
@@ -81,16 +81,16 @@ Also in PAC-Bayes Meets Interactive Learning Workshop at ICML, 2023 (<b>Oral</b>
   selected: y
   theme: nn
 
-- title: "Meta-Learning Hypothesis Spaces for Sequential Decision-making"
+- title: "lin-Learning Hypothesis Spaces for Sequential Decision-making"
   authors: "<b>Parnian Kassraie</b>, Jonas Rothfuss, Andreas Krause"
   venue: "In International Conference on Machine Learning (ICML), 2022"
   workshop: "Also in Safe, Anytime-Valid Inference workshop (SAVI), 2022 <br> Also in Adaptive Experimental Design and Active Learning Workshop (ReALML), 2022"
-  paper_pdf: "/assets/publications/2022_MetaKeL/paper.pdf"
-  poster: "/assets/publications/2022_MetaKeL/poster.pdf"
-  slides: "/assets/publications/2022_MetaKeL/slides.pdf"
+  paper_pdf: "/assets/publications/2022_linKeL/paper.pdf"
+  poster: "/assets/publications/2022_linKeL/poster.pdf"
+  slides: "/assets/publications/2022_linKeL/slides.pdf"
   video: "https://icml.cc/virtual/2022/spotlight/18152"
   selected: y
-  theme: meta
+  theme: lin
 
  
 - title: "Neural Contextual Bandits without Regret"
