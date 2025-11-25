@@ -11,7 +11,7 @@
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background: url("background.png") no-repeat center center fixed;
+    background: url("bg-desktop.png") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -56,38 +56,41 @@
     height: 26px;
   }
 
-   /* Mobile-specific adjustments */
+  /* Mobile-specific adjustments */
   @media (max-width: 600px) {
+    body {
+      background: url("bg-phone.png") no-repeat center center fixed;
+      background-size: cover;
+    }
+
     h1 {
-      font-size: 1.3rem; /* smaller heading on mobile */
+      font-size: 1.3rem;
     }
 
     p {
-      font-size: 1rem; /* smaller paragraph text on mobile */
+      font-size: 1rem;
     }
 
     .content {
-      padding: 15px 20px; /* less padding for small screens */
-      max-width: 90%; /* slightly wider for small screens */
+      padding: 15px 20px;
+      max-width: 90%;
     }
 
     .spotify-icon {
       width: 22px;
-      height: 22px; /* smaller icon on mobile */
+      height: 22px;
     }
 
     .spotify-link {
-      font-size: 0.95rem; /* slightly smaller link text */
+      font-size: 0.95rem;
     }
   }
-  
 </style>
 </head>
 <body>
 
 <div class="content">
   <h1>The Stranger — 異鄉人</h1>
-
 
   <p>
     There are 455,000 strangers in Zurich, a criminally overused novel title, and an obscure band on a faraway island that barely shows up on the map. That band, The Strangers from Taiwan, currently has only 7 listeners in its 5th most popular city.
