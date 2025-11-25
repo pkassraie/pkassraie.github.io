@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Strangers</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url("background.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica", sans-serif;
+  }
+
+  .content {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    max-width: 80%;
+  }
+
+  .spotify-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .spotify-icon {
+    width: 24px;
+    height: 24px;
+  }
+</style>
+</head>
+<body>
+
+<div class="content">
+  <p>This song always reminds me of sunsets and strangers.</p>
+
+  <a
+    class="spotify-link"
+    href="https://open.spotify.com/track/59ApHt52K7XPofdTs1kIaV?si=32dacdaad9dd4d5f"
+    target="_blank"
+  >
+    <img class="spotify-icon"
+         src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+         alt="Spotify" />
+    Listen on Spotify
+  </a>
+</div>
+
+</body>
+</html>
